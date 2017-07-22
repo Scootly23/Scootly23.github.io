@@ -15,10 +15,21 @@
 		 url('../fonts/leckerlione/leckerlione-regular-webfont.ttf') format('truetype'),
 		 url('../fonts/leckerlione/leckerlione-regular-webfont.svg#leckerli_oneregular') format('svg');
 }
-
+logo{
+	width: 100%;
+}
+services{
+	padding-top: 40px;
+}
+services left{
+	align: left;
+}
+services right{
+	align: right;
+}
 body {
 	background: #fff;
-	font-family: Arial, Helvetica, sans-serif;
+	font-family: 'Montserrat', sans-serif;
 	font-size: 14px;
 	font-weight: normal;
 	line-height: 1;
@@ -70,7 +81,6 @@ p a:hover {
 #header ul li a {
 	color: #252525;
 	display: inline-block;
-	font-family: "Arial Black", Gadget, sans-serif;
 	font-size: 14px;
 	font-weight: normal;
 	margin: 0;
@@ -89,7 +99,6 @@ p a:hover {
 #body h1 {
 	color: #fff;
 	display: inline;
-	font-family: poller_oneregular;
 	font-size: 35px;
 	font-weight: normal;
 	margin: 0;
@@ -117,7 +126,6 @@ p a:hover {
 	width: 560px;
 }
 #body > div .article h2 {
-	font-family: "Arial Black", Gadget, sans-serif;
 	font-size: 25px;
 	font-weight: normal;
 	margin: 0 0 30px;
@@ -132,7 +140,6 @@ p a:hover {
 	background: #252525;
 	color: #fff;
 	display: inline-block;
-	font-family: "Arial Black", Gadget, sans-serif;
 	font-size: 25px;
 	font-weight: normal;
 	margin: 0 0 30px;
@@ -180,7 +187,6 @@ p a:hover {
 }
 #body div ul li div h3 {
 	color: #252525;
-	font-family: "Arial Black", Gadget, sans-serif;
 	font-size: 25px;
 	font-weight: normal;
 	margin: 0;
@@ -194,7 +200,6 @@ p a:hover {
 	background: #000;
 	color: #fff;
 	display: inline-block;
-	font-family: "Arial Black", Gadget, sans-serif;
 	font-size: 18px;
 	font-weight: normal;
 	margin: 0;
@@ -245,7 +250,6 @@ p a:hover {
 	background: #fff;
 	color: #000;
 	display: inline-block;
-	font-family: poller_oneregular;
 	font-size: 20px;
 	font-weight: normal;
 	margin: 0 0 18px;
@@ -291,7 +295,6 @@ p a:hover {
 #body > ul li a {
 	color: #000;
 	display: block;
-	font-family: poller_oneregular;
 	font-size: 20px;
 	font-weight: normal;
 	margin: 0;
@@ -301,7 +304,6 @@ p a:hover {
 	text-transform: uppercase;
 }
 #body > ul li a img {
-	border: 2px solid #1a1a1a;
 	display: block;
 	margin: 0;
 	padding: 0;
@@ -324,7 +326,6 @@ p a:hover {
 #body form input, #body form textarea {
 	border: 2px solid #252525;
 	color: #252525;
-	font-family: Arial, Helvetica, sans-serif;
 	font-size: 15px;
 	font-weight: normal;
 	margin: 0 0 37px;
@@ -341,7 +342,6 @@ p a:hover {
 #body form #send {
 	background: #252525;
 	color: #fff;
-	font-family: "Arial Black", Gadget, sans-serif;
 	font-size: 15px;
 	font-weight: normal;
 	display: inline-block;
